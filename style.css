@@ -374,7 +374,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 150vh;
+    height: 120vh;
 }
 
 .project h1{
@@ -481,28 +481,16 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1312px) {
     .project {
-        height: 1600px;
+        height: 170vh;
     }
 
-    .project h1 {
-        font-size: 2rem;
-        margin-top: 12rem;
-    }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 880px) {
     .project {
-        height: 1400px;
-    }
-
-    .project h1 {
-        font-size: 1.2rem;
-    }
-
-    .project__card {
-        width: 300px;
+        height: 290vh;
     }
 }
 
