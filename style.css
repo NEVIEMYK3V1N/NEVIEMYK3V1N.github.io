@@ -374,7 +374,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 120vh;
+    height: auto;           /* let it expand naturally */
+    padding: 4rem 0 6rem;   /* add spacing around */
 }
 
 .project h1{
@@ -487,20 +488,10 @@
     transform: scale(1.075);
     transition: 0.2s ease-in;
     cursor: pointer;
+     z-index: 2;  /* ensure hover pops above neighbors */
 }
 
-@media screen and (max-width: 1312px) {
-    .project {
-        height: 170vh;
-    }
 
-}
-
-@media screen and (max-width: 880px) {
-    .project {
-        height: 315vh;
-    }
-}
 
 /* Footer CSS */
 .footer__container {
