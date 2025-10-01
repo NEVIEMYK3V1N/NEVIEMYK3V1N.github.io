@@ -324,7 +324,7 @@
         justify-self: center;
         width: 100%;
         margin: 0 auto;
-        height: 90vh;
+        height: auto;
     }
 
     .main__content {
@@ -375,7 +375,7 @@
     flex-direction: column;
     align-items: center;
     height: auto;           /* let it expand naturally */
-    padding: 4rem 0 6rem;   /* add spacing around */
+    padding: 10rem 0 8rem;   /* add spacing around */
 }
 
 .project h1{
